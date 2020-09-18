@@ -1,4 +1,5 @@
-var correctNum = 3;
+
+function guessing() {var correctNum = 3;
 for (var i = 0; i < 4; i++){
     var guess = prompt ('Pick a number between 1 and 10');
     if ((i===3)&& (correctNum !== parseInt(guess))){
@@ -13,7 +14,7 @@ for (var i = 0; i < 4; i++){
     }
 }
 
-
+}
 
 
 
