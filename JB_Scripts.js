@@ -1,3 +1,24 @@
+var correctNum = 3;
+for (var i = 0; i < 4; i++){
+    var guess = prompt ('Pick a number between 1 and 10');
+    if ((i===3)&& (correctNum !== parseInt(guess))){
+        alert("Oh well, we can't all be winners");
+    }
+    else if(parseInt(guess) === correctNum) {
+        alert ('You are right!');
+        break;
+    }
+    else if (guess !== correctNum) {
+        alert('sorry, try again');
+    }
+}
+
+
+
+
+
+
+
 
 function dessertChoice(){
     var question1 = prompt('Do you prefer sweet or salty?');
